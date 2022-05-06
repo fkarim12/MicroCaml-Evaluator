@@ -1,0 +1,15 @@
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: Start test public:5:public_expr_double_fun.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: Test public:5:public_expr_double_fun is successful.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: End test public:5:public_expr_double_fun.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: Start test public:12:public_expr_simple_div.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: Test public:12:public_expr_simple_div is successful.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: End test public:12:public_expr_simple_div.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: Start test public:15:public_expr_simple_sum.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: Test public:15:public_expr_simple_sum is successful.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: End test public:15:public_expr_simple_sum.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: Start test public:22:public_expr_single_not.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: Test public:22:public_expr_single_not is successful.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: End test public:22:public_expr_single_not.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: Start test public:26:public_err_div_by_zero.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: Test public:26:public_err_div_by_zero is successful.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#06 I: End test public:26:public_err_div_by_zero.

@@ -1,0 +1,18 @@
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: Start test public:3:public_expr_add1.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: Test public:3:public_expr_add1 is successful.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: End test public:3:public_expr_add1.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: Start test public:9:public_expr_nested_let.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: Test public:9:public_expr_nested_let is successful.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: End test public:9:public_expr_nested_let.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: Start test public:13:public_expr_simple_mult.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: Test public:13:public_expr_simple_mult is successful.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: End test public:13:public_expr_simple_mult.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: Start test public:19:public_expr_single_if.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: Test public:19:public_expr_single_if is successful.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: End test public:19:public_expr_single_if.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: Start test public:24:public_expr_single_or.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: Test public:24:public_expr_single_or is successful.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: End test public:24:public_expr_single_or.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: Start test public:29:public_expr_shadow.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: Test public:29:public_expr_shadow is successful.
+2021-11-24T01:57:11+00:00 LAPTOP-9AV4R5KQ#04 I: End test public:29:public_expr_shadow.

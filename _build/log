@@ -1,0 +1,147 @@
+# dune runtest -f
+# OCAMLPARAM: unset
+# Workspace root: /mnt/c/Users/faraz/OneDrive/Desktop/cmsc330fall21/project4b
+$ /usr/bin/nproc > /tmp/dune616feb.output 2> /dev/null
+# Auto-detected concurrency: 12
+# disable binary cache
+$ /home/fkarim12/.opam/4.11.0/bin/ocamlc.opt -config > /tmp/dune0661d6.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Release
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path = Some External "/home/fkarim12/.opam/4.11.0/lib/toplevel"
+#  ; ocaml_bin = External "/home/fkarim12/.opam/4.11.0/bin"
+#  ; ocaml = Ok External "/home/fkarim12/.opam/4.11.0/bin/ocaml"
+#  ; ocamlc = External "/home/fkarim12/.opam/4.11.0/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/home/fkarim12/.opam/4.11.0/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/home/fkarim12/.opam/4.11.0/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/home/fkarim12/.opam/4.11.0/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/home/fkarim12/.opam/4.11.0/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/home/fkarim12/.opam/4.11.0/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/mnt/c/Users/faraz/OneDrive/Desktop/cmsc330fall21/project4b"
+#        ; "INSIDE_DUNE" :
+#            "/mnt/c/Users/faraz/OneDrive/Desktop/cmsc330fall21/project4b/_build/default"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/mnt/c/Users/faraz/OneDrive/Desktop/cmsc330fall21/project4b/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/mnt/c/Users/faraz/OneDrive/Desktop/cmsc330fall21/project4b/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/mnt/c/Users/faraz/OneDrive/Desktop/cmsc330fall21/project4b/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/home/fkarim12/.opam/4.11.0/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.11.0"
+#      ; standard_library_default = "/home/fkarim12/.opam/4.11.0/lib/ocaml"
+#      ; standard_library = "/home/fkarim12/.opam/4.11.0/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "gcc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-fPIC" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-ldl"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-fPIC"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm"; "-ldl" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "linux"
+#      ; asm = [ "as" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-pc-linux-gnu"
+#      ; target = "x86_64-pc-linux-gnu"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X028"
+#      ; cmi_magic_number = "Caml1999I028"
+#      ; cmo_magic_number = "Caml1999O028"
+#      ; cma_magic_number = "Caml1999A028"
+#      ; cmx_magic_number = "Caml1999Y028"
+#      ; cmxa_magic_number = "Caml1999Z028"
+#      ; ast_impl_magic_number = "Caml1999M028"
+#      ; ast_intf_magic_number = "Caml1999N028"
+#      ; cmxs_magic_number = "Caml1999D028"
+#      ; cmt_magic_number = "Caml1999T028"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /home/fkarim12/.opam/4.11.0/bin/ocamldep.opt -modules -impl src/eval.ml) > _build/default/src/.p4b.objs/eval.ml.d
+$ (cd _build/default && /home/fkarim12/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -I src/.p4b.objs/byte -I src/.p4b.objs/native -intf-suffix .ml -no-alias-deps -open P4b -o src/.p4b.objs/native/p4b__Eval.cmx -c -impl src/eval.ml)
+> File "src/eval.ml", lines 63-65, characters 6-74:
+> 63 | ......match op with
+> 64 |       |Or -> if (x = true || y = true) then (Bool true) else (Bool false)
+> 65 |       |And -> if (x = true && y = true) then (Bool true) else (Bool false)
+> Warning 8: this pattern-matching is not exhaustive.
+> Here is an example of a case that is not matched:
+> (Add|Sub|Mult|Div|Concat|Greater|Less|GreaterEqual|LessEqual|Equal|NotEqual)
+$ (cd _build/default && /home/fkarim12/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -I test/.testUtils.objs/byte -I test/.testUtils.objs/native -I /home/fkarim12/.opam/4.11.0/lib/bytes -I /home/fkarim12/.opam/4.11.0/lib/oUnit -I /home/fkarim12/.opam/4.11.0/lib/ounit2 -I /home/fkarim12/.opam/4.11.0/lib/ounit2/advanced -I /home/fkarim12/.opam/4.11.0/lib/stdlib-shims -I src/.p4b.objs/byte -I src/.p4b.objs/native -intf-suffix .ml -no-alias-deps -o test/.testUtils.objs/native/testUtils.cmx -c -impl test/testUtils.ml)
+$ (cd _build/default && /home/fkarim12/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -a -o test/testUtils.cmxa test/.testUtils.objs/native/testUtils.cmx)
+$ (cd _build/default && /home/fkarim12/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -a -o src/p4b.cmxa src/.p4b.objs/native/p4b.cmx src/.p4b.objs/native/p4b__MicroCamlTypes.cmx src/.p4b.objs/native/p4b__TokenTypes.cmx src/.p4b.objs/native/p4b__Utils.cmx src/.p4b.objs/native/p4b__Parser.cmx src/.p4b.objs/native/p4b__Lexer.cmx src/.p4b.objs/native/p4b__Eval.cmx)
+$ (cd _build/default && /home/fkarim12/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -I test/public/.public.eobjs/byte -I test/public/.public.eobjs/native -I /home/fkarim12/.opam/4.11.0/lib/bytes -I /home/fkarim12/.opam/4.11.0/lib/oUnit -I /home/fkarim12/.opam/4.11.0/lib/ounit2 -I /home/fkarim12/.opam/4.11.0/lib/ounit2/advanced -I /home/fkarim12/.opam/4.11.0/lib/stdlib-shims -I src/.p4b.objs/byte -I src/.p4b.objs/native -I test/.testUtils.objs/byte -I test/.testUtils.objs/native -intf-suffix .ml -no-alias-deps -o test/public/.public.eobjs/native/dune__exe__Public.cmx -c -impl test/public/public.ml)
+$ (cd _build/default && /home/fkarim12/.opam/4.11.0/bin/ocamlopt.opt -w -40 -g -o test/public/public.exe /home/fkarim12/.opam/4.11.0/lib/ocaml/str.cmxa -I /home/fkarim12/.opam/4.11.0/lib/ocaml src/p4b.cmxa /home/fkarim12/.opam/4.11.0/lib/ocaml/unix.cmxa -I /home/fkarim12/.opam/4.11.0/lib/ocaml /home/fkarim12/.opam/4.11.0/lib/stdlib-shims/stdlib_shims.cmxa /home/fkarim12/.opam/4.11.0/lib/ounit2/advanced/oUnitAdvanced.cmxa /home/fkarim12/.opam/4.11.0/lib/ounit2/oUnit.cmxa test/testUtils.cmxa test/public/.public.eobjs/native/dune__exe__Public.cmx)
+$ (cd _build/default/test/public && ./public.exe)
+> ..........................E...
+> ==============================================================================
+> Error: public:27:public_mutop_factorial.
+>
+> File "/mnt/c/Users/faraz/OneDrive/Desktop/cmsc330fall21/project4b/_build/default/test/public/oUnit-public-LAPTOP-9AV4R5KQ#02.log", line 17, characters 1-1:
+> Error: public:27:public_mutop_factorial (in the log).
+>
+> Raised at P4b__Eval.update in file "src/eval.ml", line 27, characters 10-56
+> Called from P4b__Eval.eval_expr in file "src/eval.ml", line 83, characters 6-23
+> Called from P4b__Eval.eval_mutop in file "src/eval.ml", line 102, characters 29-49
+> Called from TestUtils.eval_mutop_ast in file "test/testUtils.ml" (inlined), line 32, characters 29-45
+> Called from Dune__exe__Public.public_mutop_factorial in file "test/public/public.ml", line 205, characters 16-37
+> Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+>
+> P4b.Eval.DeclareError("Unbound variable fact")
+> ------------------------------------------------------------------------------
+> Ran: 30 tests in: 0.15 seconds.
+> FAILED: Cases: 30 Tried: 30 Errors: 1 Failures: 0 Skip:  0 Todo: 0 Timeouts: 0.
+[1]
